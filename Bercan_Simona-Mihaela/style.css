@@ -1,0 +1,146 @@
+body{
+    background-color:#f5e6e8;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    border: solid #192a51 3px;
+    background-color: #d5c6e0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style:italic;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+p{
+    font-size: small;
+    color:#967aa1;
+}
+
+a:link{
+    color:#192a51;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(193, 36, 167);
+    text-decoration: underline;
+}
+
+.header{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 8px 8px 10px rgba(41, 2, 62, 0.766);
+}
+
+table, th, td{
+    border: solid #967aa1 5px;
+    border-collapse: collapse;
+}
+
+td{
+    word-wrap:break-word;
+    width:250px;
+    text-align:center;
+}
+
+th{
+    color:#192a51;
+}
+
+.retea{
+    background-color: #aaa1c8;
+    border: solid #192a51 2px;
+    margin-top: 30px;
+}
+
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    border-radius:30px;
+    opacity:75%;
+}
+
+#img1{
+    box-shadow: 8px 8px 10px rgba(41, 2, 62, 0.766);
+}
+
+ul{
+    margin: 0 auto;
+    text-align: left;
+    display: block;
+    width: fit-content;
+    padding: 0;
+    list-style-position: inside;
+}
+
+li{
+    margin: 5px 0;
+    padding-left: 0;
+}
+
+/*slideshow*/
+.content{
+    padding: 20px;
+}
+
+#slideshow-title{
+    cursor: pointer;
+}
+
+.image-list{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.initial-image{
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.initial-image:hover{
+    opacity: 1;
+}
+
+.slideshow-container{
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    background-color: #f5e6e8;
+    border-radius: 10px; 
+    display: none;
+}
+
+.slideshow-images{
+    position: relative;
+}
+
+.slideshow-image{
+    width: 100%;
+    display: none;
+}
+
+.slideshow-image.active{
+    display: block;
+    opacity: 1;
+}
